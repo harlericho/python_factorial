@@ -1,0 +1,15 @@
+#result{
+    color: blue;
+}
+#text-p{
+    color: slategrey;
+    font-size: small;
+}
+#card{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#btnGenerate{
+    margin-right: 1%;
+}

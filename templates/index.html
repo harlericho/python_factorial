@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Factorial
+{% endblock title %}
+
+{% block content %}
+<p class="card-text" id="text-p">
+    <strong>Factorial of a number is the product of all the integers from 1 to the number.</strong>
+</p>
+<form method="post">
+    <div class="mb-3">
+        <label for="number" class="form-label">Number</label>
+        <input type="number" class="form-control" name="number" min="1" max="100" placeholder="1" autofocus required>
+    </div>
+    <button type="submit" class="btn btn-success btn-sm" id="btnGenerate">Generate</button>
+</form>
+<h4 class="p-3">Factorial is: <i id="result">{{ result }}</i></h4>
+{% endblock content %}
